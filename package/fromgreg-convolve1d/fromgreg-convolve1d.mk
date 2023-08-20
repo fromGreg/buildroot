@@ -1,0 +1,15 @@
+
+FROMGREG_CONVOLVE1D_VERSION = 1.0
+FROMGREG_CONVOLVE1D_SITE = ./package/fromgreg-convolve1d/src
+FROMGREG_CONVOLVE1D_SITE_METHOD = local
+
+define FROMGREG_CONVOLVE1D_BUILD_CMDS
+	$(MAKE) CC="$(TARGET_CC)" \
+		CFLAGS="$(TARGET_CFLAGS)" LDFLAGS="$(TARGET_LDFLAGS)" -C $(@D)
+endef
+
+define FROMGREG_CONVOLVE1D_INSTALL_TARGET_CMDS
+	$(INSTALL) -D -m 0755 $(@D)/fromgreg-convolve1d $(TARGET_DIR)/usr/bin
+endef
+
+$(eval $(generic-package))

@@ -1,7 +1,6 @@
 BR2_xtensa=y
 BR2_XTENSA_CUSTOM=y
 BR2_XTENSA_OVERLAY_FILE="/home/greg/Documents/personal/bachelor_thesis/working_dir/programmatical_work/buildchains/esp32s3/toolchain_default/xtensa-overlay-configurer/output/xtensa_esp32s3-overlay.tar.gz"
-BR2_GLOBAL_PATCH_DIR="/home/greg/Documents/personal/bachelor_thesis/working_dir/programmatical_work/buildchains/esp32s3/buildroot-patches"
 BR2_TOOLCHAIN_EXTERNAL=y
 BR2_TOOLCHAIN_EXTERNAL_CUSTOM=y
 BR2_TOOLCHAIN_EXTERNAL_PATH="/home/greg/Documents/personal/bachelor_thesis/working_dir/programmatical_work/buildchains/esp32s3/toolchain_default/crosstool-NG/builds/xtensa-esp32s3-linux-uclibcfdpic"

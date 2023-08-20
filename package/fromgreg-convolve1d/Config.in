@@ -1,0 +1,5 @@
+config BR2_PACKAGE_FROMGREG_CONVOLVE1D
+    bool "convolve1d"
+    help
+        Test package that implements simple 1D convolution of 2 vectors.
+        https://github.com/fromGreg/simple-convolve-1d
