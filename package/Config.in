@@ -2745,6 +2745,7 @@ endmenu
 
 menu "fromgreg Custom Packages"
     source "package/fromgreg-convolve1d/Config.in"
+    source "package/fromgreg-hello/Config.in"
 endmenu
 
 endmenu
